@@ -17,13 +17,13 @@ COPYRIGHT SHANNON PATON 2022 ALL RIGHTS RESERVED
 }
 
 .about-body {
-	/*yellow gradient*/
-	background: linear-gradient(90deg, hsla(49, 87%, 64%, 1) 0%, hsla(49, 81%, 66%, 1) 59%, hsla(49, 96%, 78%, 1) 98%);
+	/*peach gradient*/
+	background: linear-gradient(90deg, hsla(16, 85%, 78%, 1) 0%, hsla(16, 91%, 82%, 1) 100%);
 }
 
 .projects-body {
 	/*blue gradient*/
-	background: linear-gradient(90deg, hsla(174, 38%, 52%, 1) 0%, hsla(174, 54%, 62%, 1) 100%);
+	background: linear-gradient(90deg, hsla(219, 100%, 78%, 1) 0%, hsla(219, 96%, 82%, 1) 100%);
 }
 
 /*

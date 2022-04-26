@@ -5,26 +5,20 @@ COPYRIGHT SHANNON PATON 2022 ALL RIGHTS RESERVED
 */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Merriweather:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Merriweather:ital,wght@0,300;0,400;1,400&display=swap&family=Montserrat&display=swap');
 
 * {
 	margin: 0 auto;
 }
 
-.home-body {
-	/*pink gradient*/
-	background: linear-gradient(90deg, hsla(0, 87%, 79%, 1) 0%, hsla(0, 78%, 82%, 1) 100%);
+body {
+	background: linear-gradient(90deg, hsla(170, 17%, 65%, 1) 0%, hsla(170, 23%, 75%, 1) 100%);
+
 }
 
-.about-body {
-	/*peach gradient*/
-	background: linear-gradient(90deg, hsla(16, 85%, 78%, 1) 0%, hsla(16, 91%, 82%, 1) 100%);
-}
-
-.projects-body {
-	/*blue gradient*/
-	background: linear-gradient(90deg, hsla(219, 100%, 78%, 1) 0%, hsla(219, 96%, 82%, 1) 100%);
-}
+/*pink/peach gradients*/
+/*	background: linear-gradient(90deg, hsla(0, 87%, 79%, 1) 0%, hsla(0, 78%, 82%, 1) 100%);*/
+/*	background: linear-gradient(90deg, hsla(16, 85%, 78%, 1) 0%, hsla(16, 91%, 82%, 1) 100%);*/
 
 /*
 
@@ -59,6 +53,7 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*each list item*/
@@ -85,6 +80,17 @@ PAGE COPY STYLING
 
 */
 
+.aside img {
+	float: right;
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+.aside img {
+	width: 100%;
+}
+}
 
 h1 {
 	font-family: 'Merriweather', serif;
@@ -108,16 +114,52 @@ h3 {
 	color: #171d22; /* very dark */
 }
 
+h4 {
+	font-family: 'Lora', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #171d22; /* very dark */
+	padding-top: 2%;
+}
+
+li {
+	margin-top: 5px;
+}
+
+
+ul {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	color: #171d22; /* very dark */
+}
 
 p {
 	font-family: 'Lora', serif;
 	font-weight: 400;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	padding-bottom: 3%;
+	color: #171d22; /* very dark */
 }
 
 a {
 	color: #5E38C5; /* ocean blue */
+}
+
+button {
+	margin-top: 5px;
+	padding: 8px 12px 8px 12px;
+	color: #fff;
+	background-color: #171d22; /* very dark */
+	border: none;
+	font-size: .8em;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+button:hover {
+	background-color: #000;
+	cursor: pointer;
 }
 
 mark {
@@ -158,36 +200,8 @@ PHOTO GRID STYLING
 
 div.grid-cell {
 	margin-left: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-bottom: 12%;
 }
-
-img:hover {
-	filter: brightness(50%);
-	cursor: pointer;
-}
-
-/*
-
-TEXT GRID STYLING
-
-*/
-
-div.grid-cell-column-left {
-	margin-left: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-div.grid-cell-column-left p {
-	color: white;
-}
-
-
-button:hover {
-	cursor: pointer;
-}
-
 
 
 

@@ -201,6 +201,13 @@ GRID STYLING
 	margin-left: 0%;
 }
 
+@media only screen and (max-width: 800px) {
+	.grid-container {
+		grid-template-columns: 100%;
+	}
+}
+
+
 /*
 
 PHOTO GRID STYLING
